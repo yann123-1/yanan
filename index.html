@@ -2,18 +2,28 @@
 <html>
 <head>
 <style>
-
-iframe {
-  width: 500px;
-  height: 500px;
-  border: none;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+#t01 {
+  width: 100%;
+  background-color: #f1f1c1;
 }
 </style>
 </head>
 <body>
-
-<h2>Iframe 實作練習</h2>
-<iframe src="https://www.w3schools.com" title="W3Schools"></iframe>
-
-</body>
-</html>
+<table id="t01">
+  <tr>
+    <th>Name</th>
+    <th>Student ID</th>
+  </tr>
+  <tr>
+    <td>Yan-An-Lo</td>
+    <td>113401542</td>
+  </tr>
+</table>
